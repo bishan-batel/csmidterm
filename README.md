@@ -28,13 +28,25 @@ The array is sorted
 The algorithm found whether or not the target is in the array sucessfully 
 
 ## Concurrency vs Sequential
+### Cocurrency
+Cocurrent tasks are tasks that are happening simultaneously 
+
+### Sequential
+Sequential tasks are tasks that happen one after each other, and do notoverlap
+
 
 ## Big O Notation
+Big O Notation is a measure of how well an algorithm performs as inputs scale.
+
 ## Sort & Search Algorithms
 ### Linear Search
+O(n)
 ### Binary Search
+O(log(n))
 ### Selection Sort
+O(n<sup>2</sup>)
 ### Bubble Sort
+O(n<sup>2</sup>)
 
 ## Collection
 ### Methods
