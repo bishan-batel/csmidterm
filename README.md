@@ -126,6 +126,39 @@ Encapsulation is classes making their data private and controlling access throug
 * Classes have control of who accesses and sets their data
 * Classes can pair functionality with the action of setting or getting their own data
 
+## Bogosort
+```java
+
+void bogosort(int[] arr) {
+    while (!isSorted(arr)) {
+        shuffle(arr);
+    }
+}
+
+boolean isSorted(int[] arr) {
+    for (int i = 0; i < arr.length - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+void swap(int[] arr, int i, int j) {
+    int temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
+
+void shuffle(int[] arr) {
+    for (int i = 0; i arr.length; i++) {
+        int n = (int)
+            (Math.random()*arr.length);
+
+        swap(arr, i, n);
+    }
+}
+```
 
 ## Inheritance
 TODO
