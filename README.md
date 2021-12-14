@@ -99,8 +99,6 @@ A virtual machine is a machine that is simulated inside another with sandboxes m
 ### Advantages:
 * Memory is sandboxed so it increases security for if you want to test things like viruses
 * Allows for easier cross-platform use (specifically Java JRE) be cause you compile once and you just give your program to machines that have the JRE
-TODO
-
 
 ## Fundamental parts of programming languages (define & use)
 * Variable
@@ -122,6 +120,57 @@ TODO
 
 ## Encapsulation
 Encapsulation is classes making their data private and controlling access through accessors and mutators.
+
+### Accessor & Mutators
+I.B. Fancy word for setters and getters
+
+Without Accessors & Mutators:
+```java
+public class Person {
+    public String name;
+    public String firstName;
+    public String lastName;
+
+    public Person(String firstName, String lastName) {
+        this.name = firstName + " " + lastName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
+```
+
+With Accessors & Mutators
+```java
+public class Person {
+    public String firstName;
+    public String lastName;
+
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public void setFirstName(String name) {
+        firstName = name;
+    }
+
+    public void setLastName(String name) {
+        lastName = name;
+    }
+
+    public void getFirstName() {
+        return firstName;
+    }
+
+    public void getLastName() {
+        return lastName;
+    }
+
+    public void getName() {
+        return firstName + " " + lastName;
+    }
+}
+```
 ### Advantages
 * Classes have control of who accesses and sets their data
 * Classes can pair functionality with the action of setting or getting their own data
@@ -206,7 +255,6 @@ Examplse of primitives:
 * byte
 * **NOT** arrays, you can have arrays of primitives, but the array as a whole is **NOT** a primitive
 
-## Accessor & Mutators
 
 ## Method Signatures
 ```java
