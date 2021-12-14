@@ -14,7 +14,7 @@ The flowchart guide will be provided to you on the test, but I don't think the m
 Self Explanatory how to read, you will not need to create one yourself.
 
 ## Concurrency vs Sequential
-### Cocurrency
+### Concurrency
 Cocurrent tasks are tasks that are happening simultaneously 
 
 ### Sequential
@@ -216,6 +216,8 @@ TODO
 TODO
 
 ## Advanteges of Libraries
+* Allows you to outsource work
+* You can trust proffessionals 
 
 ## OOP 
 TODO
