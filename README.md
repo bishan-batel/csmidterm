@@ -51,3 +51,21 @@
 ## Inheritance
 
 ## Polymorphisism
+
+## Advanteges of Libraries
+
+## OOP 
+
+## Use of programming teams
+
+## Define Identifier, Instance, Parameter, Primitives
+
+## Accessor & Mutators
+
+## Method Signatures
+
+## Define public, protected, private, & package
+
+## Define & Use of static methods
+
+## Moral & Ethical Considerations
