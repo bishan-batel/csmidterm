@@ -116,6 +116,13 @@ TODO **(dm if you have a precise definition because I can't find one in my notes
 If you've done B3 then you know this hell already.
 
 ## UML Relationships
+__A__ is a __B__
+A --> B
+
+__A__ has a __B__
+A <>-- B
+
+__A__ uses __B__
 TODO
 
 ## Encapsulation
@@ -210,21 +217,39 @@ void shuffle(int[] arr) {
 ```
 
 ## Inheritance
-TODO
+Allows one class to inherit both **behaviours** and **attributes** of a **single** parent class.
+### Advantages:
+* Avoids duplicate code
+* Simplifies testing
+* Simplifies refactoring
 
 ## Polymorphisism
-TODO
+"Many Form"
+Two types:
+### Override
+A method with the same name as a method in the class, but different parameters.
 
-## Advanteges of Libraries
+### Overload
+Overrides functionality of a parent class
+
+## Advantages of Libraries
 * Allows you to outsource work
 * You can trust proffessionals 
 
 ## OOP 
-TODO
+Abstraction of data into 'classes' and follows ideas of Polymorphisism, Inheritance, and Encapsulation.
+
+### Disadvantages
+* Inefficient for small programs
+* Steep learning curve
+* Large boilerplate code / program size
 
 
 ## Use of programming teams
 TODO
+* Allows to segment work 
+* Can give specialized tasks
+* 
 
 ## Define Identifier, Instance, Parameter, Primitives
 
