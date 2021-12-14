@@ -104,6 +104,23 @@ O(n<sup>2</sup>)
 ## Accessor & Mutators
 
 ## Method Signatures
+```java
+public static int linearSearch(int[] arr, int target) {
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] == target) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+```
+would have a method signature of: 
+```java
+public static int linearSearch(int[] arr, int target)
+```
+
+Mr.Ansari says its disputed whether or not to include the return type, but I.B. will not take points off if you include it.
 
 ## Define public, protected, private, & package
 
