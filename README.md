@@ -234,7 +234,7 @@ public void bogo(int age) {
 }
 
 ```
-### Identifier
+### Identifiersfa
 A name for a variable or instance or class or method, in the example identifiers would be 'age', 'kb', 'bogo', 'Scanner' 
 
 ### Instance
@@ -305,6 +305,7 @@ Method is able to be accessed from all classes **within the same package as the 
 
 
 ## Packages
+Packages are a collection of classes 
 ## Define & Use of static methods & variables
 ### Define
 Static methods and variables are methods & variables that belond to all instances of a class, rathern than specific ones. Exampels of these include all methods and variables from the `java.lang.Math` class, such as `Math.sin()` or `Math.PI`
@@ -313,3 +314,7 @@ Static methods and variables are methods & variables that belond to all instance
 We use static methods when we need multiple classes to have shared data or functionality.
 
 ## Moral & Ethical Considerations
+* Human Rights
+* Privacy
+* Acountability
+* others TODO
