@@ -65,6 +65,18 @@ O(n<sup>2</sup>)
 ## Properties of programming languages
 
 ## Compiler vs Intepreter
+### Compiler
+A compiled langauge is a langauge where the programming code is converted into machine code **ONCE** and then can be run natively on different devices. 
+
+ex. C, C++, Rust
+
+### Intepreter
+A intepreted language is a language where the programming code is fed into a program and it runs the code **LINE BY LINE** each time it runs.
+
+ex. Python, Javascript
+
+### Java
+Java is both intepreted AND compiled because it compiles to a special Java Bytecode, and run through an intepreter (eg. the Java Virtual Machine / Runtime Enviorment)
 
 ## Virtual Machine
 
@@ -122,8 +134,21 @@ public static int linearSearch(int[] arr, int target)
 
 Mr.Ansari says its disputed whether or not to include the return type, but I.B. will not take points off if you include it.
 
-## Define public, protected, private, & package
+## Define public, protected, private, and default access
 
+### Public
+```java
+public void foo(int bar)
+```
+Method is available to ALL packages and other classes
+
+### Protected
+```java
+protected void foo(int bar)
+```
+Method is available to only the current class AND all subclasses (classes that inherit from class this was defined in)
+
+## Packages
 ## Define & Use of static methods
 
 ## Moral & Ethical Considerations
