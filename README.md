@@ -246,10 +246,8 @@ Abstraction of data into 'classes' and follows ideas of Polymorphisism, Inherita
 
 
 ## Use of programming teams
-TODO
 * Allows to segment work 
 * Can give specialized tasks
-* 
 
 ## Define Identifier, Instance, Parameter, Primitives
 
